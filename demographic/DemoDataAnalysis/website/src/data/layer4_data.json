@@ -1,0 +1,393 @@
+{
+  "summary": {
+    "totalDistricts": 1056,
+    "districtsWithAlerts": 556,
+    "criticalDistricts": 10,
+    "highDistricts": 93,
+    "moderateDistricts": 314,
+    "totalInterventions": 417,
+    "avgPriorityScore": 24.53,
+    "avgPriorityWithAlerts": 31.16
+  },
+  "alertFrequency": [
+    {
+      "alert_type": "migration_volatility_high",
+      "districts_affected": 274,
+      "percentage": 25.946969696969692
+    },
+    {
+      "alert_type": "child_share_low",
+      "districts_affected": 206,
+      "percentage": 19.50757575757576
+    },
+    {
+      "alert_type": "growth_spike",
+      "districts_affected": 98,
+      "percentage": 9.280303030303031
+    },
+    {
+      "alert_type": "decline_rapid",
+      "districts_affected": 73,
+      "percentage": 6.912878787878787
+    },
+    {
+      "alert_type": "documentation_lag",
+      "districts_affected": 51,
+      "percentage": 4.829545454545454
+    },
+    {
+      "alert_type": "stability_low",
+      "districts_affected": 31,
+      "percentage": 2.935606060606061
+    },
+    {
+      "alert_type": "dependency_high",
+      "districts_affected": 30,
+      "percentage": 2.840909090909091
+    },
+    {
+      "alert_type": "child_risk_high",
+      "districts_affected": 9,
+      "percentage": 0.8522727272727272
+    },
+    {
+      "alert_type": "migration_pressure_critical",
+      "districts_affected": 6,
+      "percentage": 0.5681818181818182
+    },
+    {
+      "alert_type": "critical_zone",
+      "districts_affected": 3,
+      "percentage": 0.2840909090909091
+    }
+  ],
+  "priorityDistricts": [
+    {
+      "district": "Balotra",
+      "state": "Rajasthan",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 3,
+      "priority_score": 100.0,
+      "migration_pressure_score": 117181.37817731162,
+      "child_risk_score": 23.95329394943163,
+      "DSI": 34.90289040258448,
+      "ADP": 21.036317501739653
+    },
+    {
+      "district": "Beawar",
+      "state": "Rajasthan",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 4,
+      "priority_score": 100.0,
+      "migration_pressure_score": 38605.13310974783,
+      "child_risk_score": 22.69660632563672,
+      "DSI": 32.666080331258726,
+      "ADP": 20.536692530825377
+    },
+    {
+      "district": "Khairthal-Tijara",
+      "state": "Rajasthan",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 3,
+      "priority_score": 100.0,
+      "migration_pressure_score": 134680.58176287738,
+      "child_risk_score": 21.35863995411117,
+      "DSI": 37.49668564985692,
+      "ADP": 21.99371070589756
+    },
+    {
+      "district": "Washim *",
+      "state": "Maharashtra",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 5,
+      "priority_score": 96.63443577501394,
+      "migration_pressure_score": 617.0258577148511,
+      "child_risk_score": 50.93256689325894,
+      "DSI": 22.244367646651853,
+      "ADP": 12.672238976325032
+    },
+    {
+      "district": "Kotputli-Behror",
+      "state": "Rajasthan",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 3,
+      "priority_score": 95.84817084051556,
+      "migration_pressure_score": 37710.98538663505,
+      "child_risk_score": 21.03746767817504,
+      "DSI": 36.90774192603509,
+      "ADP": 21.61013400321057
+    },
+    {
+      "district": "Buldana",
+      "state": "Maharashtra",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 5,
+      "priority_score": 87.05729589413521,
+      "migration_pressure_score": 197.3484992120853,
+      "child_risk_score": 58.104356175420335,
+      "DSI": 35.96115346393526,
+      "ADP": 21.87107397031873
+    },
+    {
+      "district": "Didwana-Kuchaman",
+      "state": "Rajasthan",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 3,
+      "priority_score": 84.59872998499311,
+      "migration_pressure_score": 25526.09985223155,
+      "child_risk_score": 22.28331472339613,
+      "DSI": 35.34513614468256,
+      "ADP": 21.33407092116319
+    },
+    {
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 5,
+      "priority_score": 83.59867696797218,
+      "migration_pressure_score": 1300.9969012018728,
+      "child_risk_score": 27.282956366202583,
+      "DSI": 31.71899058165494,
+      "ADP": 59.83231580400575
+    },
+    {
+      "district": "Yavatmal",
+      "state": "Maharashtra",
+      "alert_severity": "HIGH",
+      "total_alerts": 4,
+      "priority_score": 82.16238235345863,
+      "migration_pressure_score": 9320.178901424715,
+      "child_risk_score": 30.931997523711303,
+      "DSI": 13.118976549108757,
+      "ADP": 36.95531356014733
+    },
+    {
+      "district": "Phalodi",
+      "state": "Rajasthan",
+      "alert_severity": "HIGH",
+      "total_alerts": 3,
+      "priority_score": 79.6529809951048,
+      "migration_pressure_score": 21942.80792166663,
+      "child_risk_score": 21.848825314415617,
+      "DSI": 41.0711979188482,
+      "ADP": 22.491901288802605
+    },
+    {
+      "district": "Nanded",
+      "state": "Maharashtra",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 5,
+      "priority_score": 75.16545029073733,
+      "migration_pressure_score": 1905.8217995469413,
+      "child_risk_score": 27.85587740337688,
+      "DSI": 28.341551052490267,
+      "ADP": 54.15193318777306
+    },
+    {
+      "district": "Ahmadnagar",
+      "state": "Maharashtra",
+      "alert_severity": "CRITICAL",
+      "total_alerts": 4,
+      "priority_score": 74.6773198154799,
+      "migration_pressure_score": 133.40762506285333,
+      "child_risk_score": 25.826673693320263,
+      "DSI": 41.8471232812154,
+      "ADP": 62.68073914765507
+    },
+    {
+      "district": "Ahilyanagar",
+      "state": "Maharashtra",
+      "alert_severity": "HIGH",
+      "total_alerts": 2,
+      "priority_score": 69.29175788574655,
+      "migration_pressure_score": 9775.430804088886,
+      "child_risk_score": 22.346003013342088,
+      "DSI": 8.283372125066894,
+      "ADP": 10.20605230537464
+    },
+    {
+      "district": "North 24 Parganas",
+      "state": "West Bengal",
+      "alert_severity": "HIGH",
+      "total_alerts": 4,
+      "priority_score": 68.26761493834614,
+      "migration_pressure_score": 7786.273393046164,
+      "child_risk_score": 23.822842343806634,
+      "DSI": 57.15039813301671,
+      "ADP": 70.02767775179097
+    },
+    {
+      "district": "Sangli",
+      "state": "Maharashtra",
+      "alert_severity": "HIGH",
+      "total_alerts": 4,
+      "priority_score": 66.70523263969316,
+      "migration_pressure_score": 570.6290999358224,
+      "child_risk_score": 26.473442902319785,
+      "DSI": 35.510589557012736,
+      "ADP": 31.13432111276191
+    },
+    {
+      "district": "Medchal?Malkajgiri",
+      "state": "Telangana",
+      "alert_severity": "HIGH",
+      "total_alerts": 2,
+      "priority_score": 64.52924773023241,
+      "migration_pressure_score": 8576.99270150844,
+      "child_risk_score": 19.034653182363915,
+      "DSI": 17.825357812289884,
+      "ADP": 5.092787401814215
+    },
+    {
+      "district": "Banswara",
+      "state": "Rajasthan",
+      "alert_severity": "HIGH",
+      "total_alerts": 3,
+      "priority_score": 64.2965112376026,
+      "migration_pressure_score": 68.13761499884139,
+      "child_risk_score": 33.438072302242105,
+      "DSI": 37.45331264258645,
+      "ADP": 23.32949223134008
+    },
+    {
+      "district": "Bid",
+      "state": "Maharashtra",
+      "alert_severity": "HIGH",
+      "total_alerts": 3,
+      "priority_score": 63.5717485414645,
+      "migration_pressure_score": 178.7380312687512,
+      "child_risk_score": 55.32070183795774,
+      "DSI": 46.33670204391559,
+      "ADP": 25.095753399876823
+    },
+    {
+      "district": "Buldhana",
+      "state": "Maharashtra",
+      "alert_severity": "HIGH",
+      "total_alerts": 3,
+      "priority_score": 63.412663303434655,
+      "migration_pressure_score": 540.0430359447106,
+      "child_risk_score": 27.53429162675328,
+      "DSI": 29.47262772943348,
+      "ADP": 33.16033356554015
+    },
+    {
+      "district": "Osmanabad",
+      "state": "Maharashtra",
+      "alert_severity": "HIGH",
+      "total_alerts": 3,
+      "priority_score": 63.21887089273842,
+      "migration_pressure_score": 653.8456747288919,
+      "child_risk_score": 27.74456624206699,
+      "DSI": 31.53628951511984,
+      "ADP": 33.56123573226961
+    }
+  ],
+  "severityDistribution": {
+    "NORMAL": 500,
+    "MODERATE": 314,
+    "LOW": 139,
+    "HIGH": 93,
+    "CRITICAL": 10
+  },
+  "stateAnalysis": [
+    {
+      "state": "Westbengal",
+      "total_districts": 2,
+      "total_alerts": 3,
+      "priority_score": 53.49756097218129
+    },
+    {
+      "state": "Dadra & Nagar Haveli",
+      "total_districts": 1,
+      "total_alerts": 2,
+      "priority_score": 52.07070717514881
+    },
+    {
+      "state": "Maharashtra",
+      "total_districts": 53,
+      "total_alerts": 114,
+      "priority_score": 48.01915696601532
+    },
+    {
+      "state": "West Bangal",
+      "total_districts": 3,
+      "total_alerts": 6,
+      "priority_score": 41.74986543941473
+    },
+    {
+      "state": "Rajasthan",
+      "total_districts": 45,
+      "total_alerts": 57,
+      "priority_score": 38.98992744812735
+    },
+    {
+      "state": "Daman & Diu",
+      "total_districts": 2,
+      "total_alerts": 2,
+      "priority_score": 32.489599331788426
+    },
+    {
+      "state": "Andaman & Nicobar Islands",
+      "total_districts": 3,
+      "total_alerts": 4,
+      "priority_score": 31.98314634649327
+    },
+    {
+      "state": "West Bengal",
+      "total_districts": 47,
+      "total_alerts": 73,
+      "priority_score": 31.468809263729327
+    },
+    {
+      "state": "Uttar Pradesh",
+      "total_districts": 89,
+      "total_alerts": 106,
+      "priority_score": 30.37776790055091
+    },
+    {
+      "state": "Manipur",
+      "total_districts": 13,
+      "total_alerts": 10,
+      "priority_score": 29.31669596182513
+    },
+    {
+      "state": "Bihar",
+      "total_districts": 47,
+      "total_alerts": 56,
+      "priority_score": 28.862103033592224
+    },
+    {
+      "state": "Pondicherry",
+      "total_districts": 4,
+      "total_alerts": 5,
+      "priority_score": 28.694256008679602
+    },
+    {
+      "state": "Chhatisgarh",
+      "total_districts": 1,
+      "total_alerts": 1,
+      "priority_score": 27.082568983845047
+    },
+    {
+      "state": "Madanapalle",
+      "total_districts": 1,
+      "total_alerts": 1,
+      "priority_score": 23.954765247315954
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "total_districts": 15,
+      "total_alerts": 13,
+      "priority_score": 23.839897957312406
+    }
+  ],
+  "alertsByCount": {
+    "0": 500,
+    "1": 390,
+    "2": 123,
+    "3": 31,
+    "4": 8,
+    "5": 4
+  }
+}

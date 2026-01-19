@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Charts</title>
+    <script src="https://cdn.jsdelivr.net/npm/recharts@2.5.0/dist/Recharts.js"></script>
+</head>
+<body>
+    <h1>Testing District Chart Data</h1>
+    <div id="test-output"></div>
+    
+    <script type="module">
+        import data from './src/data/bivariateData.json' assert { type: 'json' };
+        
+        const output = document.getElementById('test-output');
+        output.innerHTML = `
+            <h2>Top Districts Volume Data:</h2>
+            <pre>${JSON.stringify(data.topDistrictsVolume.slice(0, 3), null, 2)}</pre>
+            
+            <h2>Top Districts Ratio Data:</h2>
+            <pre>${JSON.stringify(data.topDistrictsRatio.slice(0, 3), null, 2)}</pre>
+            
+            <h2>Top 20 Pincodes Data:</h2>
+            <pre>${JSON.stringify(data.top20Pincodes.slice(0, 3), null, 2)}</pre>
+        `;
+    </script>
+</body>
+</html>
