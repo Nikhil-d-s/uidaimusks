@@ -1,0 +1,12 @@
+BASIC STATISTICS
+================================================================================
+
+total_records: 5457456
+unique_states: 54
+unique_districts: 986
+unique_pincodes: 19834
+date_range: 2025-03-01 to 2026-01-03
+total_bio_5_17: 42797429.0
+total_bio_17_plus: 52542029.0
+avg_bio_5_17: 7.842025189071958
+avg_bio_17_plus: 9.627585687517568
